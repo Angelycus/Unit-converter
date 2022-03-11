@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka", sans-serif;
+}
+
+#square {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  border: 3px;
+}
+#upper {
+  background-image: linear-gradient(to right, #3b69e1, #18244a);
+  padding: 5px;
+  height: 250px;
+  color: white;
+  border: 3px solid #18244a;
+}
+
+#lab {
+  font-size: 20px;
+}
+
+#istyle {
+  width: 70px;
+}
+
+#btn {
+  width: 70px;
+  border-radius: 5px;
+}
+
+#btn:hover {
+  background-color: #3b69e1;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#number {
+  font-size: 90px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+#lower {
+  padding: 10px;
+  height: 350px;
+  border: 3px solid #18244a;
+  padding-bottom: 40px;
+}
+
+#length {
+  font-size: 20px;
+  padding: 10px;
+  height: 100px;
+}
+
+#volume {
+  font-size: 20px;
+  padding: 10px;
+  height: 100px;
+  border-top: 3px solid #18244a;
+  border-bottom: 3px solid #18244a;
+}
+
+#mass {
+  font-size: 20px;
+  padding: 10px;
+  height: 100px;
+}
